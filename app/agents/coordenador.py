@@ -11,7 +11,7 @@ from crewai import Agent
 def criar_coordenador(llm):
     """Monta o agente. A LLM vem da crew, que e quem a configura."""
     return Agent(
-        role="Coordenador de Cuidados",
+        role="Organizador de Cuidados",
         goal=(
             "Confirmar com o grupo o que foi entendido e pedir exatamente o "
             "que falta para o compromisso ficar completo"

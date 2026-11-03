@@ -12,7 +12,7 @@ from crewai import Agent
 def criar_interprete(llm):
     """Monta o agente. A LLM vem da crew, que e quem a configura."""
     return Agent(
-        role="Interprete de Compromissos",
+        role="Interpretador de Compromissos",
         goal=(
             "Identificar, nas mensagens de um grupo familiar, compromissos de "
             "cuidado de uma pessoa idosa e extrair seus dados sem adivinhar "
